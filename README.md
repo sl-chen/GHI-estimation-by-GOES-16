@@ -1,0 +1,1 @@
+# GHI-estimation-by-GOES-16
