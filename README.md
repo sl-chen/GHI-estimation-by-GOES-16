@@ -59,4 +59,4 @@ Four clear-sky models are used in this study, namely, Ineichen-Perez, McClear, R
 |  REST2  |  $I_0$, $\theta$, $\rho_g$, $P_a$, $\tau_{550}$, $\alpha$, $\mu_{O_3}$ , $\mu_{NO_2}$, $\mu_{H_2O}$ | NSRDB |
 |  Ineichen-Perez TL  |  $I_0$, $\theta$, $h$, $P_a$, $T_a$, $\phi$, $V$  | Local measurements| 
 
-Finally, the comparison of different clear-sky models for GHI estimation is shown in 
+Finally, the comparison of different clear-sky models for GHI estimation is shown in [DRA_clear-sky_models_in_GHI_estimation.ipynb](../DRA_clear-sky_models_in_GHI_estimation.ipynb).
