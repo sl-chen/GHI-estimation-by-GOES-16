@@ -35,7 +35,7 @@ The snow-free period is obtained using the data from National Aeronautics and Sp
 so the upper and lower bound will change. While the monthly fixed time window means it is fixed in the month of
 interest, so the upper and lower bounds remain constant in the month.
 
-For an example using the four strategies for three bands, please refer to 
+For an example using the four strategies for three bands, please refer to [README](../README.md)
 
 #### Clear-sky models
 Four clear-sky models are used in this study.
