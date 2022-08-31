@@ -35,7 +35,22 @@ The snow-free period is obtained using the data from National Aeronautics and Sp
 so the upper and lower bound will change. While the monthly fixed time window means it is fixed in the month of
 interest, so the upper and lower bounds remain constant in the month.
 
-For an example using the four strategies for three bands, please refer to [README](../README.md)
+For an example using the four strategies for three bands, please refer to [DRA_ci_calculation_4_strategies.ipynb](../DRA_ci_calculation_4_strategies.ipynb)
+
+#### Cloud index (CI) to clear-sky index (CSI) methods
+Four methods to convert derived CI to CSI for GHI estimation.
+|Method|GHI calculation|
+|:-----:|:---------: |
+|  1  |  GHI = GHIcs · CSI,<br />CSI = 0.02 + 0.98 · (1 − CI) | 
+|  2  |  GHI = CSI · GHIcs · (0.0001 · CSI + 0.9),<br />CSI = 2.36 · CI5 − 6.3 · CI4 + 6.22 · CI3 − 2.63 · CI2 − 0.58 · CI + 1 | 
+|  3  |  GHI = GHIcs · CSI<br />CSI = 1.2, CI ≤ −0.2;<br />CSI = 1.0 − CI, −0.2 < CI ≤ 0.8;<br />CSI = 2.0667 − 3.6667 · CI + 1.6667 · CI2, 0.8 < CI ≤ 1.1;<br />CSI = 0.05, 1.1 < CI. | 
+|  4  |  GHI = GHIcs · CSICSI = 1.2, CI ≤ −0.2;<br />CSI = 1.0 − CI, −0.2 < CI ≤ 0.8;<br />CSI = 1.1661 − 1.781 · CI + 0.73 · CI2, 0.8 < CI ≤ 1.05;<br />CSI = 0.09, 1.05 < CI.  | 
 
 #### Clear-sky models
-Four clear-sky models are used in this study.
+Four clear-sky models are used in this study, namely, Ineichen-Perez, McClear, REST2, Improved Ineichen-Perez (Ineichen-Perez TL).
+|Clear-sky model|Input parameters|Data source|
+|:-----:|:---------: | :---------: |
+|  Ineichen-Perez  |  $I_0$, $\theta$, $h$, $T_L$ | SoDa database | 
+|   McClear  |  $I_0$, $\theta$, $h$, $\rho_g$, $P_a$, $T_a$, $\tau_{550}$, $\alpha$, $\mu_{O_3}$ , $\mu_{H_2O}$ | CAMS |
+|  REST2  |  $I_0$, $\theta$, $\rho_g$, $P_a$, $\tau_{550}$, $\alpha$, $\mu_{O_3}$ , $\mu_{NO_2}$, $\mu_{H_2O}$ | NSRDB |
+|  Ineichen-Perez TL  |  $I_0$, $\theta$, $h$, $P_a$, $T_a$, $\phi$, $V$  | Local measurements| 
