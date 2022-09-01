@@ -46,9 +46,9 @@ Four methods to convert derived CI to CSI for GHI estimation.
 |  3  |  GHI = GHIcs · CSI<br />CSI = 1.2, CI ≤ −0.2;<br />CSI = 1.0 − CI, −0.2 < CI ≤ 0.8;<br />CSI = 2.0667 − 3.6667 · CI + 1.6667 · CI2, 0.8 < CI ≤ 1.1;<br />CSI = 0.05, 1.1 < CI. | 
 |  4  |  GHI = GHIcs · CSICSI = 1.2, CI ≤ −0.2;<br />CSI = 1.0 − CI, −0.2 < CI ≤ 0.8;<br />CSI = 1.1661 − 1.781 · CI + 0.73 · CI2, 0.8 < CI ≤ 1.05;<br />CSI = 0.09, 1.05 < CI.  | 
 
-For the comparison of different CI-to-CSI methods and Strategies for upper and lower bounds, csi calculation, please refer to [DRA_comparison_lb_ub_ci_csi.ipynb](../DRA_comparison_lb_ub_ci_csi.ipynb).
+For the comparison of different CI-to-CSI methods and Strategies for upper and lower bounds, csi calculation, please refer to [DRA_comparison_lb_ub_ci_csi.ipynb](https://github.com/sl-chen/GHI-estimation-by-GOES-16/blob/main/DRA_comparison_lb_ub_ci_csi.ipynb).
 
-The comparison of bands 1, 2, and 3 for GHI estimation is presented in [DRA_c1c2c3_comparison.ipynb](../DRA_c1c2c3_comparison.ipynb).
+The comparison of bands 1, 2, and 3 for GHI estimation is presented in [DRA_c1c2c3_comparison.ipynb](https://github.com/sl-chen/GHI-estimation-by-GOES-16/blob/main/DRA_c1c2c3_comparison.ipynb).
 
 #### Clear-sky models
 Four clear-sky models are used in this study, namely, Ineichen-Perez, McClear, REST2, Improved Ineichen-Perez (Ineichen-Perez TL).
@@ -61,6 +61,6 @@ Four clear-sky models are used in this study, namely, Ineichen-Perez, McClear, R
 
 Input parameters for the used clear-sky models. The variables are the solar constant $I_0$ [W\,$m^-2$], solar zenith angle $\theta$ [$^{\circ}$], altitude $h$ [m], Linke turbidity $T_L$, surface albedo $\rho_g$, local pressure $P_a$ [mb], ambient temperature $T_a$ [K], AOD at 550 nm $\tau_{550}$, Ångström exponent $\alpha$, total ozone amount $u_{O_3}$ [atm-cm], total precipitable water vapor $u_{H_2O}$ [cm], total nitrogen dioxide amount $u_{NO_2}$ [atm-cm], relative humidity $\phi$ [\%], wind speed $V$ [m\,s$^{-1}$].
 
-Finally, the comparison of different clear-sky models for GHI estimation is shown in [DRA_clear-sky_models_in_GHI_estimation.ipynb](../DRA_clear-sky_models_in_GHI_estimation.ipynb).
+Finally, the comparison of different clear-sky models for GHI estimation is shown in [DRA_clear-sky_models_in_GHI_estimation.ipynb](https://github.com/sl-chen/GHI-estimation-by-GOES-16/blob/main/DRA_clear-sky_models_in_GHI_estimation.ipynb).
 
 Note that the examples made here are only for the DRA station. However, the results for other stations follows the same methods and precedure.
