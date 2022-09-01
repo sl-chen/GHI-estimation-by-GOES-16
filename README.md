@@ -63,4 +63,4 @@ Input parameters for the used clear-sky models. The variables are the solar cons
 
 Finally, the comparison of different clear-sky models for GHI estimation is shown in [DRA_clear-sky_models_in_GHI_estimation.ipynb](https://github.com/sl-chen/GHI-estimation-by-GOES-16/blob/main/DRA_clear-sky_models_in_GHI_estimation.ipynb).
 
-Note that the examples made here are only for the DRA station. However, the results for other stations follows the same methods and precedure.
+Note that the examples made here are only for the DRA station. However, the results for other stations follows the same methods and procedure.
