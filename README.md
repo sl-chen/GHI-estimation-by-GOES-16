@@ -35,7 +35,7 @@ The snow-free period is obtained using the data from National Aeronautics and Sp
 so the upper and lower bound will change. While the monthly fixed time window means it is fixed in the month of
 interest, so the upper and lower bounds remain constant in the month.
 
-For an example using the four strategies for three bands, please refer to [DRA_ci_calculation_4_strategies.ipynb](https://github.com/sl-chen/GHI-estimation-by-GOES-16/edit/main/DRA_ci_calculation_4_strategies.ipynb)
+For an example using the four strategies for three bands, please refer to [DRA_ci_calculation_4_strategies.ipynb](https://github.com/sl-chen/GHI-estimation-by-GOES-16/blob/main/DRA_ci_calculation_4_strategies.ipynb)
 
 #### Cloud index (CI) to clear-sky index (CSI) methods
 Four methods to convert derived CI to CSI for GHI estimation.
